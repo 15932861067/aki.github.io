@@ -6,7 +6,7 @@
   <link href="https://www.aki-blog.top/atom.xml" rel="self"/>
   
   <link href="https://www.aki-blog.top/"/>
-  <updated>2023-05-23T07:03:46.000Z</updated>
+  <updated>2023-06-03T07:03:46.000Z</updated>
   <id>https://www.aki-blog.top/</id>
   
   <author>
@@ -15,6 +15,52 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Aki音乐(还在更新？)</title>
+    <link href="https://www.aki-blog.top/posts/f412c462.html"/>
+    <id>https://www.aki-blog.top/posts/f412c462.html</id>
+    <published>2023-06-03T07:03:46.000Z</published>
+    <updated>2023-06-03T07:03:46.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h1><blockquote><p>这个项目我算是我写的最久的一个项目大概断断续续写了一个月？目前大部分难点都已经解决，但还有好多模块没有开发原因就&gt; 是太重复没啥难点了，目前已经有六个月没有动这个项目，可能后面会完善？</p></blockquote><h2 id="项目采用技术"><a href="#项目采用技术" class="headerlink" title="项目采用技术"></a>项目采用技术</h2><blockquote><p>此项目采用以下技术</p><blockquote><p>前端: axios,vue2,element-ui…<br>后端: node,express…<br>前端地址: <a href="https://gitee.com/lingsangcom/aki-music">https://gitee.com/lingsangcom/aki-music</a><br>后端地址: <a href="https://binaryify.github.io/NeteaseCloudMusicApi/">https://binaryify.github.io/NeteaseCloudMusicApi/</a></p></blockquote></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;写在前面&quot;&gt;&lt;a href=&quot;#写在前面&quot; class=&quot;headerlink&quot; title=&quot;写在前面&quot;&gt;&lt;/a&gt;写在前面&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;这个项目我算是我写的最久的一个项目大概断断续续写了一个月？目前大部分难点都已经解决，但还有好多模块</summary>
+      
+    
+    
+    
+    
+    <category term="项目" scheme="https://www.aki-blog.top/tags/%E9%A1%B9%E7%9B%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>购物商场</title>
+    <link href="https://www.aki-blog.top/posts/889c9d0e.html"/>
+    <id>https://www.aki-blog.top/posts/889c9d0e.html</id>
+    <published>2023-06-03T07:03:46.000Z</published>
+    <updated>2023-06-03T07:03:46.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h1><p>这个项目就市面上烂大街的购物商场，可能学习意义比较大？不过我做了全平台</p><h2 id="项目采用技术"><a href="#项目采用技术" class="headerlink" title="项目采用技术"></a>项目采用技术</h2><blockquote><p>此项目采用以下技术</p><blockquote><p>前端: axios,vue2,element-ui…<br>后端: springboot<br>前端地址: <a href="https://gitee.com/lingsangcom/vue-shop">https://gitee.com/lingsangcom/vue-shop</a><br>后端地址: 去前端项目里看吧我找不到了</p></blockquote></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;写在前面&quot;&gt;&lt;a href=&quot;#写在前面&quot; class=&quot;headerlink&quot; title=&quot;写在前面&quot;&gt;&lt;/a&gt;写在前面&lt;/h1&gt;&lt;p&gt;这个项目就市面上烂大街的购物商场，可能学习意义比较大？不过我做了全平台&lt;/p&gt;
+&lt;h2 id=&quot;项目采用技术&quot;&gt;&lt;a hre</summary>
+      
+    
+    
+    
+    
+    <category term="项目" scheme="https://www.aki-blog.top/tags/%E9%A1%B9%E7%9B%AE/"/>
+    
+  </entry>
   
   <entry>
     <title>解决powershell无法执行脚本问题</title>

@@ -4,6 +4,44 @@
   
     
     <entry>
+      <title>Aki音乐(还在更新？)</title>
+      <link href="/posts/f412c462.html"/>
+      <url>/posts/f412c462.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h1><blockquote><p>这个项目我算是我写的最久的一个项目大概断断续续写了一个月？目前大部分难点都已经解决，但还有好多模块没有开发原因就&gt; 是太重复没啥难点了，目前已经有六个月没有动这个项目，可能后面会完善？</p></blockquote><h2 id="项目采用技术"><a href="#项目采用技术" class="headerlink" title="项目采用技术"></a>项目采用技术</h2><blockquote><p>此项目采用以下技术</p><blockquote><p>前端: axios,vue2,element-ui…<br>后端: node,express…<br>前端地址: <a href="https://gitee.com/lingsangcom/aki-music">https://gitee.com/lingsangcom/aki-music</a><br>后端地址: <a href="https://binaryify.github.io/NeteaseCloudMusicApi/">https://binaryify.github.io/NeteaseCloudMusicApi/</a></p></blockquote></blockquote>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 项目 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>购物商场</title>
+      <link href="/posts/889c9d0e.html"/>
+      <url>/posts/889c9d0e.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h1><p>这个项目就市面上烂大街的购物商场，可能学习意义比较大？不过我做了全平台</p><h2 id="项目采用技术"><a href="#项目采用技术" class="headerlink" title="项目采用技术"></a>项目采用技术</h2><blockquote><p>此项目采用以下技术</p><blockquote><p>前端: axios,vue2,element-ui…<br>后端: springboot<br>前端地址: <a href="https://gitee.com/lingsangcom/vue-shop">https://gitee.com/lingsangcom/vue-shop</a><br>后端地址: 去前端项目里看吧我找不到了</p></blockquote></blockquote>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 项目 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>解决powershell无法执行脚本问题</title>
       <link href="/posts/b62ab148.html"/>
       <url>/posts/b62ab148.html</url>
