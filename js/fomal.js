@@ -3176,7 +3176,7 @@ if (localStorage.getItem("blogbg") != undefined) {
   document.getElementById("defineBg").innerText = `:root{
     --default-bg: url(https://aki-bucket.oss-cn-beijing.aliyuncs.com/img/home_bg.webp);
     --darkmode-bg:url(https://aki-bucket.oss-cn-beijing.aliyuncs.com/img/dm2.webp);
-    --mobileday-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/snow.webp);
+    --mobileday-bg: url(https://aki-bucket.oss-cn-beijing.aliyuncs.com/img/mb4.webp);
     --mobilenight-bg: url(https://aki-bucket.oss-cn-beijing.aliyuncs.com/img/mb5.webp);
   }`;
 }
