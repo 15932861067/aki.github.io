@@ -54,7 +54,7 @@ function tonav() {
     position = scroll;
   });
   //修复没有弄右键菜单的童鞋无法回顶部的问题
-  document.getElementById("page-name").innerText = document.title.split(" | Fomalhaut🥝")[0];
+  document.getElementById("page-name").innerText = document.title.split(" | Aki🥝")[0];
 }
 
 function scrollToTop() {
@@ -1119,7 +1119,7 @@ function createtime1() {
   var dnum = Math.floor(days);
 
   var ascll = [
-    `欢迎来到Fomalhaut🥝の小家!`,
+    `欢迎来到Akiの博客!`,
     `Future is now 🍭🍭🍭`,
     `
         
@@ -1133,7 +1133,7 @@ function createtime1() {
     "小站已经苟活",
     dnum,
     "天啦!",
-    "©2022 By Fomalhaut",
+    "©2022 By Aki",
   ];
 
   setTimeout(
@@ -1172,7 +1172,7 @@ function createtime2() {
   setTimeout(
     console.warn.bind(
       console,
-      "%c ⚡ Powered by Fomalhaut🥝 %c 你正在访问Fomalhaut🥝の小家",
+      "%c ⚡ Powered by Aki🥝 %c 你正在访问Aki🥝の博客",
       "color:white; background-color:#f0ad4e",
       ""
     )
@@ -1282,8 +1282,8 @@ function share_() {
   try {
     // 截取标题
     var title = document.title;
-    var subTitle = title.endsWith("| Fomalhaut🥝") ? title.substring(0, title.length - 14) : title;
-    navigator.clipboard.writeText('Fomalhaut🥝的站内分享\n标题：' + subTitle + '\n链接：' + url + '\n欢迎来访！🍭🍭🍭');
+    var subTitle = title.endsWith("| AKi🥝") ? title.substring(0, title.length - 14) : title;
+    navigator.clipboard.writeText('Aki🥝的站内分享\n标题：' + subTitle + '\n链接：' + url + '\n欢迎来访！🍭🍭🍭');
     new Vue({
       data: function () {
         this.$notify({
@@ -3407,7 +3407,7 @@ function createWinbox() {
 <h3>1. 二次元</h3>
 <details class="folding-tag" cyan><summary> 查看二次元背景 </summary>
               <div class='content'>
-              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://aki-bucket.oss-cn-beijing.aliyuncs.com/img/default_cover_12.webp)" class="imgbox" onclick="changeBg('url(https://aki-bucket.oss-cn-beijing.aliyuncs.com/img/default_cover_12.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://aki-bucket.oss-cn-beijing.aliyuncs.com/img/default_cover_120.webp)" class="imgbox" onclick="changeBg('url(https://aki-bucket.oss-cn-beijing.aliyuncs.com/img/default_cover_120.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://aki-bucket.oss-cn-beijing.aliyuncs.com/img/default_cover_13.webp)" class="imgbox" onclick="changeBg('url(https://aki-bucket.oss-cn-beijing.aliyuncs.com/img/default_cover_13.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://aki-bucket.oss-cn-beijing.aliyuncs.com/img/default_cover_133.webp)" class="imgbox" onclick="changeBg('url(https://aki-bucket.oss-cn-beijing.aliyuncs.com/img/default_cover_133.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://aki-bucket.oss-cn-beijing.aliyuncs.com/img/default_cover_134.webp)" class="imgbox" onclick="changeBg('url(https://aki-bucket.oss-cn-beijing.aliyuncs.com/img/default_cover_134.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://aki-bucket.oss-cn-beijing.aliyuncs.com/img/default_cover_135.webp)" class="imgbox" onclick="changeBg('url(https://aki-bucket.oss-cn-beijing.aliyuncs.com/img/default_cover_135.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://aki-bucket.oss-cn-beijing.aliyuncs.com/img/default_cover_142.webp)" class="imgbox" onclick="changeBg('url(https://aki-bucket.oss-cn-beijing.aliyuncs.com/img/default_cover_142.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://aki-bucket.oss-cn-beijing.aliyuncs.com/img/default_cover_143.webp)" class="imgbox" onclick="changeBg('url(https://aki-bucket.oss-cn-beijing.aliyuncs.com/img/default_cover_143.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://aki-bucket.oss-cn-beijing.aliyuncs.com/img/default_cover_145.webp)" class="imgbox" onclick="changeBg('url(https://aki-bucket.oss-cn-beijing.aliyuncs.com/img/default_cover_145.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://lskypro.acozycotage.net/Fomalhaut/img/home_bg.webp)" class="imgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/home_bg.webp)')"></a></div>
+              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://aki-bucket.oss-cn-beijing.aliyuncs.com/img/default_cover_12.webp)" class="imgbox" onclick="changeBg('url(https://aki-bucket.oss-cn-beijing.aliyuncs.com/img/default_cover_12.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://aki-bucket.oss-cn-beijing.aliyuncs.com/img/default_cover_120.webp)" class="imgbox" onclick="changeBg('url(https://aki-bucket.oss-cn-beijing.aliyuncs.com/img/default_cover_120.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://aki-bucket.oss-cn-beijing.aliyuncs.com/img/default_cover_13.webp)" class="imgbox" onclick="changeBg('url(https://aki-bucket.oss-cn-beijing.aliyuncs.com/img/default_cover_13.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://aki-bucket.oss-cn-beijing.aliyuncs.com/img/default_cover_133.webp)" class="imgbox" onclick="changeBg('url(https://aki-bucket.oss-cn-beijing.aliyuncs.com/img/default_cover_133.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://aki-bucket.oss-cn-beijing.aliyuncs.com/img/default_cover_134.webp)" class="imgbox" onclick="changeBg('url(https://aki-bucket.oss-cn-beijing.aliyuncs.com/img/default_cover_134.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://aki-bucket.oss-cn-beijing.aliyuncs.com/img/default_cover_135.webp)" class="imgbox" onclick="changeBg('url(https://aki-bucket.oss-cn-beijing.aliyuncs.com/img/default_cover_135.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://aki-bucket.oss-cn-beijing.aliyuncs.com/img/default_cover_142.webp)" class="imgbox" onclick="changeBg('url(https://aki-bucket.oss-cn-beijing.aliyuncs.com/img/default_cover_142.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://aki-bucket.oss-cn-beijing.aliyuncs.com/img/default_cover_143.webp)" class="imgbox" onclick="changeBg('url(https://aki-bucket.oss-cn-beijing.aliyuncs.com/img/default_cover_143.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://aki-bucket.oss-cn-beijing.aliyuncs.com/img/default_cover_145.webp)" class="imgbox" onclick="changeBg('url(https://aki-bucket.oss-cn-beijing.aliyuncs.com/img/default_cover_145.webp)')"></a></div>
               </div>
             </details>
 
