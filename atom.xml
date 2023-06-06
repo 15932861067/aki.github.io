@@ -42,6 +42,31 @@
   </entry>
   
   <entry>
+    <title>pinia学习(自用)</title>
+    <link href="https://www.aki-blog.top/posts/6f451c32.html"/>
+    <id>https://www.aki-blog.top/posts/6f451c32.html</id>
+    <published>2023-06-03T07:03:46.000Z</published>
+    <updated>2023-06-03T07:03:46.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1>写在前面</h1><blockquote><p>此文为本人学习pinia的笔记(部分)，想要详细了解什么是pinia或者pinia的用法的可以前往官方文档<br><a href="https://pinia.vuejs.org/zh/core-concepts/state.html">https://pinia.vuejs.org/zh/core-concepts/state.html</a></p></blockquote><h2 id="state">state</h2><ol><li>subscribe方法</li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1&gt;写在前面&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;此文为本人学习pinia的笔记(部分)，想要详细了解什么是pinia或者pinia的用法的可以前往官方文档&lt;br&gt;
+&lt;a href=&quot;https://pinia.vuejs.org/zh/core-concepts/st</summary>
+      
+    
+    
+    
+    
+    <category term="pinia" scheme="https://www.aki-blog.top/tags/pinia/"/>
+    
+  </entry>
+  
+  <entry>
     <title>购物商场</title>
     <link href="https://www.aki-blog.top/posts/889c9d0e.html"/>
     <id>https://www.aki-blog.top/posts/889c9d0e.html</id>

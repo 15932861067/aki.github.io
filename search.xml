@@ -23,6 +23,25 @@
     
     
     <entry>
+      <title>pinia学习(自用)</title>
+      <link href="/posts/6f451c32.html"/>
+      <url>/posts/6f451c32.html</url>
+      
+        <content type="html"><![CDATA[<h1>写在前面</h1><blockquote><p>此文为本人学习pinia的笔记(部分)，想要详细了解什么是pinia或者pinia的用法的可以前往官方文档<br><a href="https://pinia.vuejs.org/zh/core-concepts/state.html">https://pinia.vuejs.org/zh/core-concepts/state.html</a></p></blockquote><h2 id="state">state</h2><ol><li>subscribe方法</li></ol>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> pinia </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>购物商场</title>
       <link href="/posts/889c9d0e.html"/>
       <url>/posts/889c9d0e.html</url>
