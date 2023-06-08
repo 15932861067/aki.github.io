@@ -29,31 +29,6 @@
     
     
     <entry>
-      <title>购物商场</title>
-      <link href="/posts/889c9d0e.html"/>
-      <url>/posts/889c9d0e.html</url>
-      
-        <content type="html"><![CDATA[<h1>写在前面</h1><p>这个项目就市面上烂大街的购物商场，可能学习意义比较大？不过我做了全平台</p><h2 id="项目采用技术">项目采用技术</h2><blockquote><p>此项目采用以下技术</p><blockquote><p>前端: axios,vue2,element-ui…<br>后端: springboot<br>前端地址: <a href="https://gitee.com/lingsangcom/vue-shop">https://gitee.com/lingsangcom/vue-shop</a><br>后端地址: 去前端项目里看吧我找不到了</p></blockquote></blockquote>]]></content>
-      
-      
-      <categories>
-          
-          <category> 前端 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 项目 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>nest.js学习(自用)</title>
       <link href="/posts/6f451c32.html"/>
       <url>/posts/6f451c32.html</url>
@@ -71,6 +46,31 @@
         <tags>
             
             <tag> nest.js </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>购物商场</title>
+      <link href="/posts/889c9d0e.html"/>
+      <url>/posts/889c9d0e.html</url>
+      
+        <content type="html"><![CDATA[<h1>写在前面</h1><p>这个项目就市面上烂大街的购物商场，可能学习意义比较大？不过我做了全平台</p><h2 id="项目采用技术">项目采用技术</h2><blockquote><p>此项目采用以下技术</p><blockquote><p>前端: axios,vue2,element-ui…<br>后端: springboot<br>前端地址: <a href="https://gitee.com/lingsangcom/vue-shop">https://gitee.com/lingsangcom/vue-shop</a><br>后端地址: 去前端项目里看吧我找不到了</p></blockquote></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 项目 </tag>
             
         </tags>
       
