@@ -17,19 +17,20 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>nuxt3学习笔记</title>
-    <link href="https://www.aki-blog.top/posts/a9452037.html"/>
-    <id>https://www.aki-blog.top/posts/a9452037.html</id>
+    <title>提供几个免费的cdn</title>
+    <link href="https://www.aki-blog.top/posts/8dc3cd39.html"/>
+    <id>https://www.aki-blog.top/posts/8dc3cd39.html</id>
     <published>2023-06-28T15:03:46.000Z</published>
     <updated>2023-06-28T15:03:46.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><blockquote><p>提供几个免费的cdn, </p></blockquote>]]></content>
+    <content type="html"><![CDATA[<h2 id="写在前面">写在前面</h2><blockquote><p>提供几个免费的cdn,</p></blockquote>]]></content>
     
     
       
       
-    <summary type="html">&lt;h2 id=&quot;写在前面&quot;&gt;&lt;a href=&quot;#写在前面&quot; class=&quot;headerlink&quot; title=&quot;写在前面&quot;&gt;&lt;/a&gt;写在前面&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;提供几个免费的cdn, &lt;/p&gt;
+    <summary type="html">&lt;h2 id=&quot;写在前面&quot;&gt;写在前面&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;提供几个免费的cdn,&lt;/p&gt;
 &lt;/blockquote&gt;
 </summary>
       
@@ -50,13 +51,15 @@
     <published>2023-06-24T15:03:46.000Z</published>
     <updated>2023-06-24T15:03:46.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><blockquote><p>开个新坑把vue官方推荐的nuxt学一下<br>官方链接(中文版): <a href='https://www.nuxt.com.cn/docs/getting-started/testing'>nuxt3</a></p></blockquote><h2 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h2><blockquote><p>学习nuxt前需要知道的</p></blockquote><h3 id="自动导入"><a href="#自动导入" class="headerlink" title="自动导入"></a>自动导入</h3><blockquote><ol><li>Nuxt自动导入辅助函数、可组合函数和Vue api在应用程序中使用，而无需显式导入它们。基于目录结构，每个Nuxt应用程序还可以对自己的组件、可组合组件和插件使用自动导入。组件、可组合组件或插件可以使用这些功能。!注意: 文件命名必须规范</li><li>Explicit导入，Nuxt使用#imports别名公开每个自动导入，如果需要，可以使用该别名显式导入:<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;script setup&gt;</span><br><span class="line">  import &#123; ref, computed &#125; from &#x27;#imports&#x27;</span><br><span class="line">  const count = ref(1)</span><br><span class="line">  const double = computed(() =&gt; count.value * 2)</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure></li><li>关闭自动导入,如果你想关闭自动导入,你可以将 imports.autoImport设置为 false.<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">nuxt.config.ts</span></span><br><span class="line">export default defineNuxtConfig(&#123;</span><br><span class="line">  imports: &#123;</span><br><span class="line">    autoImport: false</span><br><span class="line">  &#125;</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure></li></ol></blockquote><h2 id="学习"><a href="#学习" class="headerlink" title="学习"></a>学习</h2><blockquote><ol><li>Nuxt提供前端和后端功能，因此您可以专注于重要的事情:创建您的web应用程序。</li><li>Nuxt使用约定和明确的目录结构来自动化重复的任务，并允许开发人员专注于推送特性。配置文件仍然可以自定义和覆盖其默认行为。 </li></ol></blockquote><h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><div class="tabs" id="分栏"><ul class="nav-tabs"></ul><div class="tab-contents"></div></div><h3 id="路由"><a href="#路由" class="headerlink" title="路由"></a>路由</h3><blockquote><p>和vue差不多</p></blockquote><h4 id="pages"><a href="#pages" class="headerlink" title="pages"></a>pages</h4><blockquote></blockquote><h2 id=""><a href="#" class="headerlink" title="#"></a>#</h2>]]></content>
+    <content type="html"><![CDATA[<h2 id="写在前面">写在前面</h2><blockquote><p>开个新坑把vue官方推荐的nuxt学一下<br>官方链接(中文版): <a href='https://www.nuxt.com.cn/docs/getting-started/testing'>nuxt3</a></p></blockquote><h2 id="基本概念">基本概念</h2><blockquote><p>学习nuxt前需要知道的</p></blockquote><h3 id="自动导入">自动导入</h3><blockquote><ol><li>Nuxt自动导入辅助函数、可组合函数和Vue api在应用程序中使用，而无需显式导入它们。基于目录结构，每个Nuxt应用程序还可以对自己的组件、可组合组件和插件使用自动导入。组件、可组合组件或插件可以使用这些功能。!注意: 文件命名必须规范</li><li>Explicit导入，Nuxt使用#imports别名公开每个自动导入，如果需要，可以使用该别名显式导入:</li></ol></blockquote><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;script setup&gt;</span><br><span class="line">  import &#123; ref, computed &#125; from &#x27;#imports&#x27;</span><br><span class="line">  const count = ref(1)</span><br><span class="line">  const double = computed(() =&gt; count.value * 2)</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure><blockquote><ol start="3"><li>关闭自动导入,如果你想关闭自动导入,你可以将 imports.autoImport设置为 false.</li></ol></blockquote><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">nuxt.config.ts</span></span><br><span class="line">export default defineNuxtConfig(&#123;</span><br><span class="line">  imports: &#123;</span><br><span class="line">    autoImport: false</span><br><span class="line">  &#125;</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure><h2 id="学习">学习</h2><blockquote><ol><li>Nuxt提供前端和后端功能，因此您可以专注于重要的事情:创建您的web应用程序。</li><li>Nuxt使用约定和明确的目录结构来自动化重复的任务，并允许开发人员专注于推送特性。配置文件仍然可以自定义和覆盖其默认行为。</li></ol></blockquote><h2 id="小坑总结">小坑总结</h2><blockquote><ol><li>nuxt生成的页面下方有一个devtool的工具那个不是页面，点击第二个圆形按钮即可关闭它。</li></ol></blockquote><h3 id="安装">安装</h3><div class="tabs" id="分栏"><ul class="nav-tabs"></ul><div class="tab-contents"></div></div><h3 id="路由">路由</h3><blockquote><p>和vue差不多</p></blockquote><h4 id="pages">pages</h4><blockquote><p>一个小坑如果创建了pages文件夹但是你没有在里面创建文件，则会出现404的情况</p></blockquote><h3 id=""></h3>]]></content>
     
     
       
       
-    <summary type="html">&lt;h2 id=&quot;写在前面&quot;&gt;&lt;a href=&quot;#写在前面&quot; class=&quot;headerlink&quot; title=&quot;写在前面&quot;&gt;&lt;/a&gt;写在前面&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;开个新坑把vue官方推荐的nuxt学一下&lt;br&gt;官方链接(中文版): &lt;a href=&#39;https</summary>
+    <summary type="html">&lt;h2 id=&quot;写在前面&quot;&gt;写在前面&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;开个新坑把vue官方推荐的nuxt学一下&lt;br&gt;
+官方链接(中文版): &lt;a href=&#39;https://www.nuxt.com.cn/docs/getting-started/testing&#39;&gt;n</summary>
       
     
     
