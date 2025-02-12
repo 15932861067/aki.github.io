@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>强制销毁和重新创建组件的方法</title>
+      <link href="/posts/891b9d87.html"/>
+      <url>/posts/891b9d87.html</url>
+      
+        <content type="html"><![CDATA[<h3 id="使用key属性">使用key属性</h3><blockquote><p>利用key属性，key是组件唯一标识他改变就会重新渲染组件</p></blockquote><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;div class=<span class="string">&quot;search-content&quot;</span>&gt;</span><br><span class="line">  &lt;keep-alive&gt;</span><br><span class="line">  <span class="comment"># 利用$route.fullPath做key，使得路由发生改变时强制渲染组件</span></span><br><span class="line">    &lt;router-view :key=<span class="string">&quot;<span class="variable">$route</span>.fullPath&quot;</span>&gt;&lt;/router-view&gt;</span><br><span class="line">  &lt;/keep-alive&gt;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> vue </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>提供几个免费的cdn</title>
       <link href="/posts/8dc3cd39.html"/>
       <url>/posts/8dc3cd39.html</url>
@@ -79,16 +104,16 @@
     
     
     <entry>
-      <title>购物商场</title>
-      <link href="/posts/889c9d0e.html"/>
-      <url>/posts/889c9d0e.html</url>
+      <title>Aki音乐(还在更新？)</title>
+      <link href="/posts/f412c462.html"/>
+      <url>/posts/f412c462.html</url>
       
-        <content type="html"><![CDATA[<h1>写在前面</h1><p>这个项目就市面上烂大街的购物商场，可能学习意义比较大？不过我做了全平台</p><h2 id="项目采用技术">项目采用技术</h2><blockquote><p>此项目采用以下技术</p><blockquote><p>前端: axios,vue2,element-ui…<br>后端: springboot<br>前端地址: <a href="https://gitee.com/lingsangcom/vue-shop">https://gitee.com/lingsangcom/vue-shop</a><br>后端地址: 去前端项目里看吧我找不到了</p></blockquote></blockquote>]]></content>
+        <content type="html"><![CDATA[<h1>写在前面</h1><blockquote><p>这个项目我算是我写的最久的一个项目大概断断续续写了一个月？目前大部分难点都已经解决，但还有好多模块没有开发原因就&gt; 是太重复没啥难点了，目前已经有六个月没有动这个项目，可能后面会完善？<br>2023-07-08 暑假闲来没事做决定重启这个项目，至于能做多少全看我有没有心情做。<br>2024-06-13 时间跨度有点大不过终于还是完成这个项目了</p></blockquote><h2 id="项目采用技术">项目采用技术</h2><blockquote><p>此项目采用以下技术</p><blockquote><p>前端: axios,vue2,element-ui…<br>后端: node,express…<br>前端地址: <a href="https://gitee.com/lingsangcom/aki-music">https://gitee.com/lingsangcom/aki-music</a><br>后端地址: <a href="https://binaryify.github.io/NeteaseCloudMusicApi/">https://binaryify.github.io/NeteaseCloudMusicApi/</a></p></blockquote></blockquote>]]></content>
       
       
       <categories>
           
-          <category> 前端 </category>
+          <category> 项目 </category>
           
       </categories>
       
@@ -104,16 +129,16 @@
     
     
     <entry>
-      <title>Aki音乐(还在更新？)</title>
-      <link href="/posts/f412c462.html"/>
-      <url>/posts/f412c462.html</url>
+      <title>购物商场</title>
+      <link href="/posts/889c9d0e.html"/>
+      <url>/posts/889c9d0e.html</url>
       
-        <content type="html"><![CDATA[<h1>写在前面</h1><blockquote><p>这个项目我算是我写的最久的一个项目大概断断续续写了一个月？目前大部分难点都已经解决，但还有好多模块没有开发原因就&gt; 是太重复没啥难点了，目前已经有六个月没有动这个项目，可能后面会完善？<br>2023-07-08 暑假闲来没事做决定重启这个项目，至于能做多少全看我有没有心情做。</p></blockquote><h2 id="项目采用技术">项目采用技术</h2><blockquote><p>此项目采用以下技术</p><blockquote><p>前端: axios,vue2,element-ui…<br>后端: node,express…<br>前端地址: <a href="https://gitee.com/lingsangcom/aki-music">https://gitee.com/lingsangcom/aki-music</a><br>后端地址: <a href="https://binaryify.github.io/NeteaseCloudMusicApi/">https://binaryify.github.io/NeteaseCloudMusicApi/</a></p></blockquote></blockquote>]]></content>
+        <content type="html"><![CDATA[<h1>写在前面</h1><p>这个项目就市面上烂大街的购物商场，可能学习意义比较大？不过我做了全平台</p><h2 id="项目采用技术">项目采用技术</h2><blockquote><p>此项目采用以下技术</p><blockquote><p>前端: axios,vue2,element-ui…<br>后端: springboot<br>前端地址: <a href="https://gitee.com/lingsangcom/vue-shop">https://gitee.com/lingsangcom/vue-shop</a><br>后端地址: 去前端项目里看吧我找不到了</p></blockquote></blockquote>]]></content>
       
       
       <categories>
           
-          <category> 项目 </category>
+          <category> 前端 </category>
           
       </categories>
       

@@ -6,7 +6,7 @@
   <link href="https://www.aki-blog.top/atom.xml" rel="self"/>
   
   <link href="https://www.aki-blog.top/"/>
-  <updated>2023-06-28T15:03:46.000Z</updated>
+  <updated>2024-06-13T07:51:49.663Z</updated>
   <id>https://www.aki-blog.top/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>强制销毁和重新创建组件的方法</title>
+    <link href="https://www.aki-blog.top/posts/891b9d87.html"/>
+    <id>https://www.aki-blog.top/posts/891b9d87.html</id>
+    <published>2024-06-03T03:40:16.854Z</published>
+    <updated>2024-06-13T07:51:49.663Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="使用key属性">使用key属性</h3><blockquote><p>利用key属性，key是组件唯一标识他改变就会重新渲染组件</p></blockquote><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;div class=<span class="string">&quot;search-content&quot;</span>&gt;</span><br><span class="line">  &lt;keep-alive&gt;</span><br><span class="line">  <span class="comment"># 利用$route.fullPath做key，使得路由发生改变时强制渲染组件</span></span><br><span class="line">    &lt;router-view :key=<span class="string">&quot;<span class="variable">$route</span>.fullPath&quot;</span>&gt;&lt;/router-view&gt;</span><br><span class="line">  &lt;/keep-alive&gt;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;使用key属性&quot;&gt;使用key属性&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;利用key属性，key是组件唯一标识他改变就会重新渲染组件&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td </summary>
+      
+    
+    
+    
+    <category term="前端" scheme="https://www.aki-blog.top/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+    <category term="vue" scheme="https://www.aki-blog.top/tags/vue/"/>
+    
+  </entry>
   
   <entry>
     <title>提供几个免费的cdn</title>
@@ -103,6 +131,33 @@
   </entry>
   
   <entry>
+    <title>Aki音乐(还在更新？)</title>
+    <link href="https://www.aki-blog.top/posts/f412c462.html"/>
+    <id>https://www.aki-blog.top/posts/f412c462.html</id>
+    <published>2023-06-03T07:03:46.000Z</published>
+    <updated>2023-06-03T07:03:46.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1>写在前面</h1><blockquote><p>这个项目我算是我写的最久的一个项目大概断断续续写了一个月？目前大部分难点都已经解决，但还有好多模块没有开发原因就&gt; 是太重复没啥难点了，目前已经有六个月没有动这个项目，可能后面会完善？<br>2023-07-08 暑假闲来没事做决定重启这个项目，至于能做多少全看我有没有心情做。<br>2024-06-13 时间跨度有点大不过终于还是完成这个项目了</p></blockquote><h2 id="项目采用技术">项目采用技术</h2><blockquote><p>此项目采用以下技术</p><blockquote><p>前端: axios,vue2,element-ui…<br>后端: node,express…<br>前端地址: <a href="https://gitee.com/lingsangcom/aki-music">https://gitee.com/lingsangcom/aki-music</a><br>后端地址: <a href="https://binaryify.github.io/NeteaseCloudMusicApi/">https://binaryify.github.io/NeteaseCloudMusicApi/</a></p></blockquote></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1&gt;写在前面&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;这个项目我算是我写的最久的一个项目大概断断续续写了一个月？目前大部分难点都已经解决，但还有好多模块没有开发原因就&amp;gt; 是太重复没啥难点了，目前已经有六个月没有动这个项目，可能后面会完善？&lt;br&gt;
+2023-07-08</summary>
+      
+    
+    
+    
+    <category term="项目" scheme="https://www.aki-blog.top/categories/%E9%A1%B9%E7%9B%AE/"/>
+    
+    
+    <category term="项目" scheme="https://www.aki-blog.top/tags/%E9%A1%B9%E7%9B%AE/"/>
+    
+  </entry>
+  
+  <entry>
     <title>购物商场</title>
     <link href="https://www.aki-blog.top/posts/889c9d0e.html"/>
     <id>https://www.aki-blog.top/posts/889c9d0e.html</id>
@@ -126,33 +181,6 @@
     
     
     <category term="前端" scheme="https://www.aki-blog.top/categories/%E5%89%8D%E7%AB%AF/"/>
-    
-    
-    <category term="项目" scheme="https://www.aki-blog.top/tags/%E9%A1%B9%E7%9B%AE/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Aki音乐(还在更新？)</title>
-    <link href="https://www.aki-blog.top/posts/f412c462.html"/>
-    <id>https://www.aki-blog.top/posts/f412c462.html</id>
-    <published>2023-06-03T07:03:46.000Z</published>
-    <updated>2023-06-03T07:03:46.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1>写在前面</h1><blockquote><p>这个项目我算是我写的最久的一个项目大概断断续续写了一个月？目前大部分难点都已经解决，但还有好多模块没有开发原因就&gt; 是太重复没啥难点了，目前已经有六个月没有动这个项目，可能后面会完善？<br>2023-07-08 暑假闲来没事做决定重启这个项目，至于能做多少全看我有没有心情做。</p></blockquote><h2 id="项目采用技术">项目采用技术</h2><blockquote><p>此项目采用以下技术</p><blockquote><p>前端: axios,vue2,element-ui…<br>后端: node,express…<br>前端地址: <a href="https://gitee.com/lingsangcom/aki-music">https://gitee.com/lingsangcom/aki-music</a><br>后端地址: <a href="https://binaryify.github.io/NeteaseCloudMusicApi/">https://binaryify.github.io/NeteaseCloudMusicApi/</a></p></blockquote></blockquote>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1&gt;写在前面&lt;/h1&gt;
-&lt;blockquote&gt;
-&lt;p&gt;这个项目我算是我写的最久的一个项目大概断断续续写了一个月？目前大部分难点都已经解决，但还有好多模块没有开发原因就&amp;gt; 是太重复没啥难点了，目前已经有六个月没有动这个项目，可能后面会完善？&lt;br&gt;
-2023-07-08</summary>
-      
-    
-    
-    
-    <category term="项目" scheme="https://www.aki-blog.top/categories/%E9%A1%B9%E7%9B%AE/"/>
     
     
     <category term="项目" scheme="https://www.aki-blog.top/tags/%E9%A1%B9%E7%9B%AE/"/>
