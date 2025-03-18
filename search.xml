@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>测试页面</title>
+      <link href="/posts/af935060.html"/>
+      <url>/posts/af935060.html</url>
+      
+        <content type="html"><![CDATA[<h3 id="Temp">Temp</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;br/&gt;</span><br><span class="line"></span><br></pre></td></tr></table></figure><!-- ### 使用key属性> 利用key属性，key是组件唯一标识他改变就会重新渲染组件``` bash    <div class="search-content">      <keep-alive>      # 利用$route.fullPath做key，使得路由发生改变时强制渲染组件        <router-view :key="$route.fullPath"></router-view>      </keep-alive>```  -->]]></content>
+      
+      
+      <categories>
+          
+          <category> 测试页面 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Temp </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>强制销毁和重新创建组件的方法</title>
       <link href="/posts/891b9d87.html"/>
       <url>/posts/891b9d87.html</url>
