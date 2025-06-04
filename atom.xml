@@ -6,7 +6,7 @@
   <link href="https://www.aki-blog.top/atom.xml" rel="self"/>
   
   <link href="https://www.aki-blog.top/"/>
-  <updated>2025-03-18T02:45:36.926Z</updated>
+  <updated>2025-06-04T13:46:14.969Z</updated>
   <id>https://www.aki-blog.top/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://www.aki-blog.top/posts/af935060.html"/>
     <id>https://www.aki-blog.top/posts/af935060.html</id>
     <published>2025-03-18T02:43:53.286Z</published>
-    <updated>2025-03-18T02:45:36.926Z</updated>
+    <updated>2025-06-04T13:46:14.969Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="Temp">Temp</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;br/&gt;</span><br><span class="line"></span><br></pre></td></tr></table></figure><!-- ### 使用key属性> 利用key属性，key是组件唯一标识他改变就会重新渲染组件``` bash    <div class="search-content">      <keep-alive>      # 利用$route.fullPath做key，使得路由发生改变时强制渲染组件        <router-view :key="$route.fullPath"></router-view>      </keep-alive>```  -->]]></content>
+    <content type="html"><![CDATA[<h3 id="Temp">Temp</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;br/&gt;</span><br><span class="line"></span><br></pre></td></tr></table></figure><h3 id="第二次测试">第二次测试</h3><!-- ### 使用key属性> 利用key属性，key是组件唯一标识他改变就会重新渲染组件``` bash    <div class="search-content">      <keep-alive>      # 利用$route.fullPath做key，使得路由发生改变时强制渲染组件        <router-view :key="$route.fullPath"></router-view>      </keep-alive>```  -->]]></content>
     
     
       
@@ -45,7 +45,7 @@
     <title>强制销毁和重新创建组件的方法</title>
     <link href="https://www.aki-blog.top/posts/891b9d87.html"/>
     <id>https://www.aki-blog.top/posts/891b9d87.html</id>
-    <published>2024-06-03T03:40:16.854Z</published>
+    <published>2025-03-18T02:43:01.039Z</published>
     <updated>2024-06-13T07:51:49.663Z</updated>
     
     <content type="html"><![CDATA[<h3 id="使用key属性">使用key属性</h3><blockquote><p>利用key属性，key是组件唯一标识他改变就会重新渲染组件</p></blockquote><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;div class=<span class="string">&quot;search-content&quot;</span>&gt;</span><br><span class="line">  &lt;keep-alive&gt;</span><br><span class="line">  <span class="comment"># 利用$route.fullPath做key，使得路由发生改变时强制渲染组件</span></span><br><span class="line">    &lt;router-view :key=<span class="string">&quot;<span class="variable">$route</span>.fullPath&quot;</span>&gt;&lt;/router-view&gt;</span><br><span class="line">  &lt;/keep-alive&gt;</span><br></pre></td></tr></table></figure>]]></content>
